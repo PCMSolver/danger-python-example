@@ -1,0 +1,11 @@
+language: python
+sudo: false
+dist: trusty
+os: linux
+ruby: 2.2.0
+before_script:
+- pip intall yapf
+- bundle install
+script:
+- bundle exec danger
+- python hello_world.py
