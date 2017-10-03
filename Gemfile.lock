@@ -1,9 +1,9 @@
 GIT
   remote: https://github.com/robertodr/danger-code_style_validation.git
-  revision: c5041a93b0e29957f6a26167164fcd320c88cf8b
+  revision: de63c3daee20a8611a6216ac35e77327eba5cd50
   branch: yapf
   specs:
-    danger-code_style_validation (0.1.0)
+    danger-code_style_validation (0.2.0)
       danger-plugin-api (~> 1.0)
 
 GEM

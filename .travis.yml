@@ -3,8 +3,10 @@ sudo: false
 dist: trusty
 os: linux
 ruby: 2.2.0
-before_script:
-- pip intall yapf
+cache:
+  - pip
+  - bundler
+install:
 - bundle install
 script:
 - bundle exec danger
