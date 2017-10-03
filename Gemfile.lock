@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/robertodr/danger-code_style_validation.git
-  revision: de63c3daee20a8611a6216ac35e77327eba5cd50
+  revision: 6978bba01500f30294aab14db9c36298979f7d5b
   branch: yapf
   specs:
     danger-code_style_validation (0.2.0)

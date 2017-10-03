@@ -7,7 +7,8 @@ cache:
   - pip
   - bundler
 install:
-- bundle install
+  - pip install -r requirements.txt
+  - bundle install
 script:
-- bundle exec danger
-- python hello_world.py
+  - bundle exec danger
+  - python hello_world.py
